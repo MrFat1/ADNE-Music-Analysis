@@ -13,8 +13,7 @@ Este proyecto forma parte de la entrega final de la asignatura **ADNE** y tiene 
 
 1. **Análisis del espectro de audio** — Representación y procesado de señales de audio mediante espectrogramas y técnicas de transformada de Fourier. Foco en analisis de los espectros de los instrumentos y diferencias entre el mismo instrumento producido acústicamente, eléctricamente o sintéticamente.
 2. **Clasificación de instrumentos** — Entrenamiento de redes neuronales para identificar instrumentos musicales a partir de fragmentos de audio.
-3. **Generación musical** — Exploración de modelos generativos capaces de crear secuencias musicales coherentes.
-
+3. **Generación musical** — Exploración de modelos generativos capaces de crear secuencias musicales coherentes. 
 ---
 
 ## 🗂️ Estructura del repositorio
@@ -37,7 +36,8 @@ Se procesan las señales de audio transformándolas en representaciones visuales
 Se entrena una red neuronal convolucional (CNN) sobre los espectrogramas extraídos para distinguir entre distintos instrumentos musicales. Se evalúa el rendimiento del modelo con métricas estándar (accuracy, F1-score, matriz de confusión).
 
 ### 3. Generación musical
-Se exploran arquitecturas generativas (RNN/LSTM y transformers) para aprender patrones musicales a partir de secuencias y generar nuevas melodías de forma automática.
+Se exploran arquitecturas generativas (RNN/LSTM y transformers) para aprender patrones musicales a partir de secuencias y generar nuevas melodías de forma automática. Para esta parte se han incluido 2 notebooks uno donde se compara LSTM con un RNN GRU con canciones de 2 grupos para ver como de buenos son generalizando artirstas. Por otro lado se tiene otro notebook en el cual se ha trabajado con transformers para generación de audio con un dataset mayor, donde la idea deja de ser generalizar artistas si no crear canciones nuevas.
+
 
 ---
 
