@@ -1,6 +1,6 @@
 # 🎵 ADNE: Music Analysis con Deep Learning
 
-> **Asignatura:** Aprendizaje Profundo en Redes Neuronales (ADNE)  
+> **Asignatura:** Analisis de datos no estructurados (ADNE)  
 > **Curso:** 2025–2026  
 > **Entrega:** Proyecto Final de Grupo  
 > **Repositorio:** [MrFat1/ADNE-Music-Analysis](https://github.com/MrFat1/ADNE-Music-Analysis)
@@ -37,7 +37,7 @@ Se procesan las señales de audio transformándolas en representaciones visuales
 Se entrena una red neuronal convolucional (CNN) sobre los espectrogramas extraídos para distinguir entre distintos instrumentos musicales. Se evalúa el rendimiento del modelo con métricas estándar (accuracy, F1-score, matriz de confusión).
 
 ### 3. Generación musical
-Se exploran arquitecturas generativas (RNN/LSTM o similares) para aprender patrones musicales a partir de secuencias y generar nuevas melodías de forma automática.
+Se exploran arquitecturas generativas (RNN/LSTM y transformers) para aprender patrones musicales a partir de secuencias y generar nuevas melodías de forma automática.
 
 ---
 
