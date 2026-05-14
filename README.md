@@ -22,11 +22,7 @@ Este proyecto forma parte de la entrega final de la asignatura **ADNE** y tiene 
 ```
 ADNE-Music-Analysis/
 │
-├── Notebooks/               # Jupyter Notebooks del proyecto
-│   ├── 01_audio_analysis.ipynb       # Análisis espectral y preprocesado
-│   ├── 02_instrument_classifier.ipynb # Modelo de clasificación
-│   └── 03_music_generation.ipynb     # Generación con redes profundas
-│
+├── Notebooks               # Jupyter Notebooks del proyecto
 └── README.md
 ```
 
